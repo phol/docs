@@ -9,6 +9,8 @@ weight: 10
 
 {{% cta cta_link="https://app.netlify.com/start/deploy?repository=https://github.com/sourcethemes/academic-kickstart" cta_text="Create your site now with Github :rocket:" cta_alt_link="../install-locally/" cta_alt_text="Alternatively, install on your computer" %}}
 
+{{% cta cta_link="https://app.netlify.com/start/deploy?repository=https://github.com/sourcethemes/academic-starter-book" cta_text="Create a documentation site or notebook with Github :rocket:" %}}
+
 You'll be greeted with the welcome screen below.
 
 Click the big _Connect To Github_ button on the welcome screen (or alternatively click the link underneath to connect with _Gitlab_):
