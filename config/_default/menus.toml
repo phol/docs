@@ -29,7 +29,7 @@
 
 [[main]]
   # pre = "<i class=\"fas fa-brush pr-1\" style=\"color: #00d1b2;\"></i>"
-  name = "Themes"
+  name = "Templates"
   url = "themes/"
   weight = 40
 

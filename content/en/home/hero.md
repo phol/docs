@@ -40,7 +40,7 @@ hero_media = "screenshot-alpha.png"
   icon = "download"
   
 [cta_alt]
-  url = "https://academic-demo.netlify.app"
+  url = "./themes/"
   label = "View Demo"
 
 # Note. An optional note to show underneath the links.

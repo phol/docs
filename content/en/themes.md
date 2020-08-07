@@ -1,9 +1,25 @@
 ---
-title: Themes
+title: Templates
 date: 2017-11-16
-summary: Choose a theme and font for your Academic powered site.
+summary: Choose a template, color theme, and font for your Academic powered site.
 type: page
 ---
+
+## Templates
+
+- **Kickstarter - Academic/Resumé**
+  - A flexible template to create _any kind_ of website. Comes with a personal academic/resumé site preconfigured.
+  - [Demo](https://academic-demo.netlify.app)
+  - [Create a site with this template 🚀](./docs/install/)
+  - [GitHub](https://github.com/sourcethemes/academic-kickstart)
+
+- **Book**
+  - Document anything: create project documentation for your users, a knowledge base for your team, or a personal notebook for yourself!
+  - [Demo](https://book-starter.netlify.app)
+  - [Create a site with this template 🚀](./docs/install/)
+  - [GitHub](https://github.com/sourcethemes/academic-starter-book)
+
+## Color Themes
 
 Academic comes bundled with a variety of popular themes built-in including:
 
@@ -24,7 +40,7 @@ Your theme comes with a _font set_ to style your titles and text, but you may ch
 
 To choose a font set, set the `font` option in `config/_default/params.toml`.
 
-## Font Sizes
+### Font Sizes
 
 The font size can be changed all the way from extra small to extra large using the `font_size` option in `config/_default/params.toml`.
 
