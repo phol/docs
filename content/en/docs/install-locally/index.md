@@ -11,9 +11,10 @@ However, we can also skip the Github/Gitlab install and edit your site directly 
 
 You can choose from one of the following methods to install your site on your computer:
 
-* [install on your computer using **Git**](#install-with-git) with the Command Prompt/Terminal app
-* [install on your computer by **downloading the ZIP** files](#install-with-zip)
-* [install on your computer with **RStudio**](#install-with-rstudio)
+* [install _Kickstart_ Template on your computer using **Git**](#install-with-git) with the Command Prompt/Terminal app
+* [install _Kickstart_ Template on your computer by **downloading the ZIP** files](#install-with-zip)
+* [install _Kickstart_ Template on your computer with **RStudio**](#install-with-rstudio)
+* [install _Book_ Template on your computer](#install-book-template)
 
 [After installing, check out the guide to personalizing your site]({{< relref "get-started.md" >}}).
 
@@ -74,6 +75,21 @@ Now you're ready to [personalize and view your site]({{< relref "get-started.md"
 Now you're ready to [personalize your site]({{< relref "get-started.md" >}}).
 
 Note that **R content should be saved with the `.Rmarkdown` file extension** rather than `.Rmd`.
+
+## Install Book Template
+
+To install the _Book_ template:
+
+1. [Fork](https://github.com/sourcethemes/academic-starter-book#fork-destination-box) the *Book* repository to create a new website
+   - If you already created your site with **Netlify**, then **skip this step**
+2. Clone your fork to your computer with Git, **replacing `sourcethemes` in the command below with your GitHub username**:
+
+        git clone https://github.com/sourcethemes/academic-starter-book.git My_Website
+
+3. Initialize and view the template using [Hugo Modules](https://gohugo.io/hugo-modules/use-modules/):
+
+        cd My_Website
+        hugo server
 
 ## Demo content
 
