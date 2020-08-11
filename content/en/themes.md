@@ -7,13 +7,19 @@ type: page
 
 ## Templates
 
-- **Kickstarter - Academic/Resumé**
+- **Kickstarter for a Resumé, academic research site, or general site**
   - A flexible template to create _any kind_ of website. Comes with a personal academic/resumé site preconfigured.
   - [Demo](https://academic-demo.netlify.app)
   - [Create a site with this template 🚀]({{< relref "./docs/install.md" >}})
   - [GitHub](https://github.com/sourcethemes/academic-kickstart)
 
-- **Book**
+- **Blog Starter**
+  - The Blog Template empowers you to create your own personal blog or build a business around your content.
+  - [Demo](https://hugo-blog-starter.netlify.app)
+  - [Create a site with this template 🚀]({{< relref "./docs/install.md" >}})
+  - [GitHub](https://github.com/sourcethemes/academic-starter-blog)
+
+- **Book Starter**
   - Document anything: create project documentation for your users, a knowledge base for your team, or a personal notebook for yourself!
   - [Demo](https://book-starter.netlify.app)
   - [Create a site with this template 🚀]({{< relref "./docs/install.md" >}})

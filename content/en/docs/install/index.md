@@ -7,9 +7,13 @@ weight: 10
 
 {{< figure src="featured.png" title="" >}}
 
-{{% cta cta_link="https://app.netlify.com/start/deploy?repository=https://github.com/sourcethemes/academic-kickstart" cta_text="Create your site now with Github :rocket:" cta_alt_link="../install-locally/" cta_alt_text="Alternatively, install on your computer" %}}
+{{% cta cta_link="https://app.netlify.com/start/deploy?repository=https://github.com/sourcethemes/academic-kickstart" cta_text="Create your **resumé** or **academic site** now with Github :rocket:" %}}
 
-{{% cta cta_link="https://app.netlify.com/start/deploy?repository=https://github.com/sourcethemes/academic-starter-book" cta_text="Create a documentation site or notebook with Github :rocket:" %}}
+{{% cta cta_link="https://app.netlify.com/start/deploy?repository=https://github.com/sourcethemes/academic-starter-blog" cta_text="Create your **blog** now with Github :rocket:" %}}
+
+{{% cta cta_link="https://app.netlify.com/start/deploy?repository=https://github.com/sourcethemes/academic-starter-book" cta_text="Create a **documentation site** or **notebook** with Github :rocket:" %}}
+
+{{% cta cta_alt_link="../install-locally/" cta_alt_text="Alternatively, install on your computer" %}}
 
 You'll be greeted with the welcome screen below.
 
