@@ -48,20 +48,26 @@
   weight = 10
 
 [[main_right]]
-  name = "<i class=\"fas fa-comments\" style=\"color: rgb(123, 22, 255); font-size: 1rem; line-height: 1.25\"></i>"
+  name = "<i class=\"fab fa-discord\" style=\"color: #7289DA; font-size: 1rem; line-height: 1.25\"></i>"
+  post = ""
+  url = "https://discord.gg/dHQWhrm"
+  weight = 20
+
+[[main_right]]
+  name = "<i class=\"far fa-question-circle\" style=\"color: rgb(123, 22, 255); font-size: 1rem; line-height: 1.25\"></i>"
   post = ""
   url = "https://spectrum.chat/academic"
-  weight = 20
+  weight = 30
 
 [[main_right]]
   name = "<i class=\"fab fa-twitter\" style=\"color: #55acee; font-size: 1rem; line-height: 1.25\"></i>"
   post = ""
   url = "https://twitter.com/source_themes"
-  weight = 20
+  weight = 40
 
 [[main_right]]
   pre = "<span class=\"btn btn-primary d-none d-lg-inline-block mb-3 mb-md-0 ml-md-3\">"
   name = "开始创建"
   post = "</span>"
   url = "../docs/install/"
-  weight = 30
+  weight = 50
