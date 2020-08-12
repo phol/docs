@@ -27,6 +27,31 @@ Academic Kickstart comes with an [update script](https://github.com/sourcethemes
 
 Please follow the method below which corresponds to how you originally installed Academic:
 
+### If you installed Blog or Book Starter
+
+Install [Hugo Extended]({{< relref "./install-locally/index.md" >}}) if it's not already on your machine.
+
+Install Hugo's _Go_ dependency
+
+- with [Brew](https://brew.sh/) on Mac: `brew install go`
+- [Windows and Linux](https://golang.org/dl/)
+
+Open a Terminal (Command Prompt) and navigate to your site's folder using the [`cd` command](https://linuxize.com/post/linux-cd-command/).
+
+Update to get the very latest developments:
+
+```
+hugo mod get github.com/gcushen/hugo-academic@master
+```
+
+Alternatively, update to the latest official release:
+
+```
+hugo mod get -u
+```
+
+[Migrate your content](#migrate-content) front matter and configuration if necessary by applying any relevant breaking changes.
+
 ### If you installed Academic Kickstart
 
 By default, Academic is installed as a Git sub-module which can be updated by opening a Terminal at the root of your site and running the following command from :
