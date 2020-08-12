@@ -22,15 +22,15 @@
   weight = 20
 
 [[main]]
-  pre = "<i class=\"fas fa-book pr-1\" style=\"color: #00d1b2;\"></i>"
-  name = "文档"
-  url = "../docs/"
-  weight = 30
-
-[[main]]
   pre = "<i class=\"fas fa-brush pr-1\" style=\"color: #00d1b2;\"></i>"
   name = "主题"
   url = "../themes/"
+  weight = 30
+
+[[main]]
+  pre = "<i class=\"fas fa-book pr-1\" style=\"color: #00d1b2;\"></i>"
+  name = "文档"
+  url = "../docs/"
   weight = 40
 
 [[main]]
