@@ -8,11 +8,29 @@ summary: Troubleshoot common issues.
 
 Some common questions and answers are listed below.
 
+**Changes do not show on my site**
+
+Login to Netlify and check the status of the latest deploy in the _Deploys_ tab.
+
+If there is a progress indicator, Netlify is still updating your site.
+
+If there is a red cross, click on the failed deploy and check the error message. You can either revert the change which broke the site, or consider addressing the issue.
+
+Feel free to join the Academic community chat (link in the menu above) and post a detailed description of the issue with the error message and a link to your GitHub repository.
+
+**Error: failed to download modules: go command failed: go: unknown subcommand "mod"**
+
+Login to Netlify and set `GO_VERSION` to `1.12` in your _Environment_ settings.
+
+Then click _Deploys_ tab, and from the _Trigger Deploy_ dropdown, choose _Deploy Site_.
+
 **I cloned/downloaded Academic but Hugo produces errors when using it with my existing Hugo site**
 
 Academic is a website *framework* rather than just a *theme*. Please follow the step-by-step guide on the Installation and Getting Started pages of the documentation.
  
 If you experience issues, first try running Hugo on the Academic Demo Site found in the `themes/academic/exampleSite` folder and then compare the configuration parameters in the demo site's `config/` folder and front matter of content files with the files in your site.
+
+Feel free to join the Academic community chat (link in the menu above) and post a detailed description of the issue with the error message and a link to your GitHub repository.
 
 **Hosting your site with Netlify or Cloudflare and experience strange behavior such as filters not working?**
 
