@@ -24,7 +24,7 @@
 [[main]]
   pre = "<i class=\"fas fa-brush pr-1\" style=\"color: #00d1b2;\"></i>"
   name = "主题"
-  url = "../themes/"
+  url = "../templates/"
   weight = 30
 
 [[main]]
