@@ -9,7 +9,7 @@ This quick tutorial will show you how to setup and use Academic.
 
 ## Choose the right theme for you
 
-Check out the [available themes]({{< relref "../themes.md" >}}) and have fun choosing a design you love.
+Check out the [available themes]({{< relref "../templates.md" >}}) and have fun choosing a design you love.
 
 Once you have settled on a theme, edit your `config/_default/params.toml` file in a text editor and set the `theme` option to the name of the chosen theme.
 

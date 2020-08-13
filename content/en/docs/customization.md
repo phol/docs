@@ -81,7 +81,7 @@ An example of a custom theme in action can be found in the [repo for this site](
 
 ### Share your theme
 
-If you create your own theme, consider giving it a unique name and *sharing* your new theme or font set with the [community](http://discuss.gohugo.io/) or following the guide on our [Themes]({{< relref "/themes.md" >}}) page so that it can be considered for curation.
+If you create your own theme, consider giving it a unique name and *sharing* your new theme or font set with the [community](https://discord.gg/z8wNYzb) or following the guide below so that it can be considered for curation.
 
 ## Website icon
 
