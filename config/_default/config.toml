@@ -5,7 +5,7 @@
 # Each configuration section is defined by a name in square brackets (e.g. `[outputs]`).
 
 # Title of your site
-title = "Academic"
+title = "Academic: Website Builder for Hugo"
 
 # The URL of your site.
 # End your URL with a `/` trailing slash, e.g. `https://example.com/`.
@@ -19,8 +19,10 @@ copyright = "&copy; 2016-{year} [George Cushen](https://twitter.com/georgecushen
 ## Advanced options below ##
 ############################
 
-# Name of Academic theme folder in `themes/`.
-theme = "academic"
+# Install Academic
+[module]
+  [[module.imports]]
+    path = "github.com/gcushen/hugo-academic"
 
 # Get last modified date for content from Git?
 enableGitInfo = true
