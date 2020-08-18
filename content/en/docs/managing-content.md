@@ -107,7 +107,7 @@ To disable **source code highlighting** for all pages, set `highlight = false` i
 
 ### Header image
 
-To display a full width **header image**, the header parameters below can be inserted towards the end of a page's [front matter]({{< relref "front-matter.md" >}}). It is assumed that the image is located in your `static/img/` media library, so the full path in the example below will be `static/img/header.png`. The `caption` parameter supports Markdown and can be used to write an image caption or credit. This option can be particularly useful for adding to an archive page's `_index.md` (e.g. to display at `YOUR_URL/post/` for the blog post archive).
+To display a full width **header image**, the header parameters below can be inserted towards the end of a page's [front matter]({{< relref "front-matter.md" >}}). It is assumed that the image is located in your `static/media/` media library, so the full path in the example below will be `static/media/header.png`. The `caption` parameter supports Markdown and can be used to write an image caption or credit. This option can be particularly useful for adding to an archive page's `_index.md` (e.g. to display at `YOUR_URL/post/` for the blog post archive).
 
 ```yaml
 header:
@@ -143,7 +143,7 @@ share: false  # Show social sharing links?
 profile: false  # Show author profile?
 comments: false  # Show comments?
 
-# Optional header image (relative to `static/img/` folder).
+# Optional header image (relative to `static/media/` folder).
 header:
   caption: ""
   image: ""
@@ -530,7 +530,7 @@ The `content/courses/_index.md` file automatically lists any course, tutorial, o
 title: Courses
 layout: docs  # Do not modify.
 
-# Optional header image (relative to `static/img/` folder).
+# Optional header image (relative to `static/media/` folder).
 header:
   caption: ""
   image: ""
