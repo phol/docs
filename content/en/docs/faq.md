@@ -18,6 +18,17 @@ If there is a red cross, click on the failed deploy and check the error message.
 
 Feel free to join the Academic community chat (link in the menu above) and post a detailed description of the issue with the error message and a link to your GitHub repository.
 
+**Error: Homepage not found at `/home/index.md`**
+
+Possible causes:
+
+- A Widget Page was modified whilst running Hugo Server
+  - Stop Hugo Server and then restart it
+- `content/home/index.md` is missing
+  - Add the `/home/index.md` homepage file to each language's content folder
+  - For example, your site should have a `content/home/` folder containing `index.md` and your homepage sections, or for multi-language sites, `content/en/home/` and `content/zh/home/` etc.
+  - Refer to the 'Build Your Homepage' and 'Language' documentation pages as well as the example homepage file at https://github.com/gcushen/hugo-academic/tree/master/exampleSite/content/home/index.md
+
 **Error: failed to download modules: go command failed: go: unknown subcommand "mod"**
 
 Login to Netlify and set `GO_VERSION` to `1.12` in your _Environment_ settings.
