@@ -187,7 +187,7 @@ The following excerpt shows the front matter structure for defining a background
   gradient_end = "#2b94c3"
   
   # Background image.
-  image = "background.jpg"  # Name of image in `static/img/`.
+  image = "background.jpg"  # Name of image in `static/media/`.
   image_darken = 0.6  # Darken the image? Range 0-1 where 0 is transparent and 1 is opaque.
   image_size = "cover"  #  Options are `cover` (default), `contain`, or `actual` size.
   image_position = "center"  # Options include `left`, `center` (default), or `right`.
@@ -277,7 +277,7 @@ headless = true  # This file represents a page section.
 
 # ... Put Your Section Options Here (title etc.) ...
 
-# Hero image (optional). Enter filename of an image in the `static/img/` folder.
+# Hero image (optional). Enter filename of an image in the `static/media/` folder.
 hero_media = ""
 
 # Call to action links (optional).
@@ -804,7 +804,7 @@ height = "300px"
   # Overlay a color or image (optional).
   #   Deactivate an option by commenting out the line, prefixing it with `#`.
   overlay_color = "#666"  # An HTML color value.
-  overlay_img = "headers/bubbles-wide.jpg"  # Image path relative to your `static/img/` folder.
+  overlay_img = "headers/bubbles-wide.jpg"  # Image path relative to your `static/media/` folder.
   overlay_filter = 0.5  # Darken the image. Value in range 0-1.
 
   # Call to action button (optional).
@@ -821,7 +821,7 @@ height = "300px"
   align = "left"
 
   overlay_color = "#555"  # An HTML color value.
-  overlay_img = ""  # Image path relative to your `static/img/` folder.
+  overlay_img = ""  # Image path relative to your `static/media/` folder.
   overlay_filter = 0.5  # Darken the image. Value in range 0-1.
 
 [[item]]
@@ -830,7 +830,7 @@ height = "300px"
   align = "right"
 
   overlay_color = "#333"  # An HTML color value.
-  overlay_img = ""  # Image path relative to your `static/img/` folder.
+  overlay_img = ""  # Image path relative to your `static/media/` folder.
   overlay_filter = 0.5  # Darken the image. Value in range 0-1.
 ```
 
