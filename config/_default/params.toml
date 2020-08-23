@@ -186,10 +186,6 @@ plugins_js  = []
   # Choose a shape for avatar images. Options: circle, square.
   shape = "circle"
 
-# Available address formats.
-[address_formats]
-  en-us = {order = ['street', 'city', 'region', 'postcode'], delimiters = [', ', ', ', ' ', '']}
-
 # Configuration of publication pages.
 [publications]
   # Date format (refer to https://sourcethemes.com/academic/docs/customization/#date-format )
