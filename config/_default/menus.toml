@@ -72,7 +72,8 @@
   weight = 40
 
 [[main_right]]
-  name = "<span class=\"btn btn-primary d-none d-lg-inline-block mb-3 mb-md-0 ml-md-3\">Get Started</span>"
-  post = ""
+  pre = "<span class=\"btn btn-primary d-none d-lg-inline-block mb-3 mb-md-0 ml-md-3\" style=\"padding: 0.3rem;\">"
+  name = "Get Started"
+  post = "</span>"
   url = "docs/install/"
   weight = 50
