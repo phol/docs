@@ -22,7 +22,7 @@ title = "Elements for **Every** Kind of Site"
   name = "Events & Slides"
   link = ""
 [[element]]
-  name = "Filterable Portfolio"
+  name = "Portfolio"
   link = ""
 [[element]]
   name = "Diagrams"
