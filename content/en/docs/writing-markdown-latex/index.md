@@ -214,6 +214,20 @@ To cross-reference a figure:
 
 Use `{{</* list_tags */>}}` to provide a list of linked tags or `{{</* list_categories */>}}` to provide a list of linked categories.
 
+## Charts
+
+Academic supports the popular [Plotly](https://plot.ly/) chart format.
+
+Save your Plotly JSON in your page folder, for example `chart.json`, and then add the `{{</* chart data="chart" */>}}` shortcode where you would like the chart to appear.
+
+Demo:
+
+{{< chart data="line-chart" >}}
+
+You might also find the [Plotly JSON Editor](http://plotly-json-editor.getforge.io/) useful.
+
+**The _chart_ shortcode requires Academic v5+.**
+
 ## Emojis
 
 See the [Emoji cheat sheet](http://www.webpagefx.com/tools/emoji-cheat-sheet/) for available emoticons. The following serves as an example, but you should remove the spaces between each emoji name and pair of semicolons:
