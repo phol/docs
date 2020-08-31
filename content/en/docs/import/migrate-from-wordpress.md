@@ -5,7 +5,7 @@ date: 2017-12-03
 type: book
 ---
 
-To migrate your website from Wordpress to Academic is a two phase process:
+To migrate your website from Wordpress to Wowchemy is a two phase process:
 
 ## Phase One
 
@@ -19,4 +19,4 @@ The WordPress plugin converts all posts, pages, taxonomies, metadata, and settin
 
 ## Phase Two
 
-Given the Jekyll formatted contents of your generated zip file in the step above, proceed to follow the guide on [importing a Jekyll site into Academic]({{< relref "migrate-from-jekyll.md" >}}).
+Given the Jekyll formatted contents of your generated zip file in the step above, proceed to follow the guide on [importing a Jekyll site into Wowchemy]({{< relref "migrate-from-jekyll.md" >}}).

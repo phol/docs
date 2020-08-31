@@ -6,7 +6,7 @@ type: book
 
 Wish to empower users to comment on your pages?
 
-Academic supports the following comment providers:
+Wowchemy supports the following comment providers:
 
 - [Disqus](https://disqus.com)
   - widely adopted but not particularly minimal and may contain adverts

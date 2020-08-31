@@ -16,7 +16,7 @@ It's possible to **customize the search system** to your needs. The search featu
 
 ### Built-in
 
-Academic comes with its own integrated search engine. If it's not already enabled, it can be enabled by setting `engine = 1` under `[search]` in `config/_default/params.toml`.
+Wowchemy comes with its own integrated search engine. If it's not already enabled, it can be enabled by setting `engine = 1` under `[search]` in `config/_default/params.toml`.
 
 Note that this search engine runs entirely in the web browser on the visitor's device. Thus, it is not scalable to an extremely large number of pages. If you have a very large amount of content and find the search running slowly, we recommend opting for a server side search engine such as Algolia or Google (see below).
 
@@ -37,7 +37,7 @@ To disable searching, open `config/_default/params.toml` and set `engine = 0` in
 
 ## Alternatives
 
-Alternative search providers, such as Google search, are not integrated with Academic, but can be implemented by creating your own custom widget. For example,
+Alternative search providers, such as Google search, are not integrated with Wowchemy, but can be implemented by creating your own custom widget. For example,
 
 1. Create a [custom widget]({{< relref "/page-builder.md" >}}) in your `/content/home/` folder
 1. Signup for [Google Custom Search Engine](https://cse.google.com/cse/)

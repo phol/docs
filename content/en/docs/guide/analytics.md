@@ -4,14 +4,14 @@ date: 2020-07-26
 type: book
 ---
 
-There are three main approaches to analysing your site traffic with Academic:
+There are three main approaches to analysing your site traffic with Wowchemy:
 
 - [Google Analytics](https://analytics.google.com)
   - a comprehensive, widely adopted solution
 - [Google Tag Manager](https://tagmanager.google.com)
   - a service to integrate _any_ analytics provider, including Google Analytics, _without_ modifying any code
-- Academic JS Hook
-  - to integrate other analytics services, paste the script provided by your analytics provider into [Academic's custom scripts file]({{< relref "../customization.md#add-scripts-js" >}})
+- Wowchemy JS Hook
+  - to integrate other analytics services, paste the script provided by your analytics provider into [Wowchemy's custom scripts file]({{< relref "../customization.md#add-scripts-js" >}})
 
 ## Google
 
@@ -32,7 +32,7 @@ GA tracks users on your live _production_ website and not your own views on your
 
 Hugo's default environments are `development` when running the `hugo serve` command and `production` when running the `hugo` command. You can explicitly set the environment to production with `HUGO_ENV` or Hugo's `--environment` [option](https://gohugo.io/commands/hugo_env/#readout).
 
-If you deploy with Netlify, the _production_ environment should already be setup in your `netlify.toml` file, but if not, check that your Netlify settings in `netlify.toml` are similar to the [latest Netlify settings in the _Academic Kickstart_ template](https://github.com/sourcethemes/academic-kickstart/blob/master/netlify.toml).
+If you deploy with Netlify, the _production_ environment should already be setup in your `netlify.toml` file, but if not, check that your Netlify settings in `netlify.toml` are similar to the [latest Netlify settings in the _Academic_ template](https://github.com/wowchemy/starter-academic/blob/master/netlify.toml).
 
 If you choose to use Google Tag Manager, you'll need to setup and configure your analytics solutions, such as Google Analytics, in the Google Tag Manager admin panel.
 

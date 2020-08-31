@@ -113,7 +113,7 @@ Head over to **`YOUR_SITE.netlify.app/admin/`** to view your content management 
 
 For support with _Netlify CMS_ admin panel, refer to the [Netlify CMS docs](https://www.netlifycms.org/docs/add-to-your-site/#authentication) and the very active [Netlify CMS community](https://www.netlifycms.org/community/).
 
-Check out the [Content]({{< relref "managing-content.md" >}}) and [Elements]({{< relref "writing-markdown-latex.md" >}}) guides to learn about all the different kinds of content we can create with Academic.
+Check out the [Content]({{< relref "managing-content.md" >}}) and [Elements]({{< relref "writing-markdown-latex.md" >}}) guides to learn about all the different kinds of content we can create with Wowchemy.
 
 Note that the preview window in the online editor is limited to rendering basic Markdown and doesn't accurately represent how your site will be rendered. However, it can be useful for getting started or writing on the go.
 
@@ -144,11 +144,11 @@ For inspiration, refer to the [Markdown content](https://github.com/gcushen/hugo
 ## Unlock rewards
 
 {{% alert thanks %}}
-**We're full steam ahead on improving Academic, and we need your help!**
+**We're full steam ahead on improving Wowchemy, and we need your help!**
 
 - :heart: [**Become a backer** on Patreon or GitHub]({{< relref "/plans.md" >}}) and **unlock [these]({{< relref "/plans.md" >}}) rewards and extra features**
-- ⭐️ [**Star** Academic on **GitHub**](https://github.com/gcushen/hugo-academic)
-- {{< icon name="twitter" pack="fab" >}} [**Share your new site** with the Academic community](https://twitter.com/intent/tweet?text=I%27m%20creating%20a%20beautiful%20website%20using%20the%20Academic%20Website%20Builder%20for%20%40GoHugoIO%20by%20%40GeorgeCushen!&amp;hashtags=MadeWithAcademic&amp;url=https://sourcethemes.com/academic/)
+- ⭐️ [**Star** Wowchemy on **GitHub**](https://github.com/gcushen/hugo-academic)
+- {{< icon name="twitter" pack="fab" >}} [**Share your new site** with the Wowchemy community](https://twitter.com/intent/tweet?text=I%27m%20creating%20a%20beautiful%20website%20using%20the%20Wowchemy%20Website%20Builder%20for%20%40GoHugoIO%20by%20%40GeorgeCushen!&amp;hashtags=MadeWithWowchemy&amp;url=https://wowchemy.com)
 {{% /alert %}}
 
 {{< poll_academic >}}

@@ -23,5 +23,5 @@ Then read on for some tips to help guide you.
 
 Notes
 
-- Installing the [Academic Admin](https://github.com/sourcethemes/academic-admin) tool and running `academic import --assets` within your site's folder may help with **Steps 3 and 4** on importing JS and CSS assets.
+- Installing the [Wowchemy Admin](https://github.com/wowchemy/wowchemy-admin) tool and running `academic import --assets` within your site's folder may help with **Steps 3 and 4** on importing JS and CSS assets.
 - [Join the discussion](https://github.com/gcushen/hugo-academic/issues/1167) on contributing improvements to make it easier to create standalone sites

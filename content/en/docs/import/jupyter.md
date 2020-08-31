@@ -5,7 +5,7 @@ date: 2019-02-12
 type: book
 ---
 
-In this guide, we'll **learn how to blog in Academic using Jupyter Notebooks**.
+In this guide, we'll **learn how to blog in Wowchemy using Jupyter Notebooks**.
 
 Here's a snippet from a Jupyter notebook, for example:
 
@@ -23,7 +23,7 @@ Otherwise, for advanced users, install Jupyter notebook with `pip3 install jupyt
 
 ## Create a new blog post [as usual]({{< relref "managing-content.md#create-a-blog-post" >}})
 
-Run the following commands in your Terminal, substituting `<MY_WEBSITE_FOLDER>` and `my-post` with the file path to your Academic website folder and a name for your blog post (without spaces), respectively:  
+Run the following commands in your Terminal, substituting `<MY_WEBSITE_FOLDER>` and `my-post` with the file path to your Wowchemy website folder and a name for your blog post (without spaces), respectively:  
 
 ```bash
 cd <MY_WEBSITE_FOLDER>
@@ -57,13 +57,13 @@ Open `index.md` in your text editor and edit the title etc. in the [front matter
 
 To set a [featured image]({{< relref "managing-content.md#featured-image" >}}), place an image named `featured` into your post's folder.
 
-For other tips, such as using math, see the guide on [writing content with Academic]({{< relref "writing-markdown-latex.md" >}}). 
+For other tips, such as using math, see the guide on [writing content with Wowchemy]({{< relref "writing-markdown-latex.md" >}}). 
 
 ## Alternative approaches
 
 Alternatively, a Jupyter notebook can be embedded in a page by following one of the approaches below:
 
-1. Upload your notebook as a [GitHub Gist](https://gist.github.com) and click *Embed* to copy and paste your hosted notebook into the body of content in Academic
+1. Upload your notebook as a [GitHub Gist](https://gist.github.com) and click *Embed* to copy and paste your hosted notebook into the body of content in Wowchemy
 
 2. [Convert your notebook to HTML](
 https://nbconvert.readthedocs.io/) using `jupyter nbconvert --to html <NOTEBOOK_NAME>.ipynb`. Then move the resulting HTML file to your page's folder and embed it into the body of the page's Markdown file using:
@@ -77,4 +77,4 @@ https://nbconvert.readthedocs.io/) using `jupyter nbconvert --to html <NOTEBOOK_
 
 3. Upload your notebook to a cloud notebook service such as [Microsoft Azure](https://notebooks.azure.com/), [Google Cloud Datalab](https://cloud.google.com/datalab/) or [Kyso](https://kyso.io). Then click their *Embed* button, pasting their custom embedding code into the body of your page's Markdown file
 
-4. Copy snippets of code from your notebook and paste them into the body of your page using [Academic's code highlighting]({{< relref "writing-markdown-latex.md#code-highlighting" >}})
+4. Copy snippets of code from your notebook and paste them into the body of your page using [Wowchemy's code highlighting]({{< relref "writing-markdown-latex.md#code-highlighting" >}})

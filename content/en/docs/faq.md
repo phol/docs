@@ -16,7 +16,7 @@ If there is a progress indicator, Netlify is still updating your site.
 
 If there is a red cross, click on the failed deploy and check the error message. You can either revert the change which broke the site, or consider addressing the issue.
 
-Feel free to join the Academic community chat (link in the menu above) and post a detailed description of the issue with the error message and a link to your GitHub repository.
+Feel free to join the Wowchemy community chat (link in the menu above) and post a detailed description of the issue with the error message and a link to your GitHub repository.
 
 **Error: Homepage not found at `/home/index.md`**
 
@@ -35,13 +35,22 @@ Login to Netlify and set `GO_VERSION` to `1.12` in your _Environment_ settings.
 
 Then click _Deploys_ tab, and from the _Trigger Deploy_ dropdown, choose _Deploy Site_.
 
-**I cloned/downloaded Academic but Hugo produces errors when using it with my existing Hugo site**
+**File not found errors after updating**
 
-Academic is a website *framework* rather than just a *theme*. Please follow the step-by-step guide on the Installation and Getting Started pages of the documentation.
+Depending on the specific error, it may be resolved by clearing Hugo's module cache:
+
+```sh
+hugo mod clean
+hugo server
+```
+
+**I cloned/downloaded Wowchemy but Hugo produces errors when using it with my existing Hugo site**
+
+Wowchemy is a website *framework* rather than just a *theme*. Please follow the step-by-step guide on the Installation and Getting Started pages of the documentation.
  
-If you experience issues, first try running Hugo on the Academic Demo Site found in the `themes/academic/exampleSite` folder and then compare the configuration parameters in the demo site's `config/` folder and front matter of content files with the files in your site.
+If you experience issues, first try running Hugo on an unedited template and then compare the configuration parameters in the demo site's `config/` folder and front matter of content files with the files in your site.
 
-Feel free to join the Academic community chat (link in the menu above) and post a detailed description of the issue with the error message and a link to your GitHub repository.
+Feel free to join the Wowchemy community chat (link in the menu above) and post a detailed description of the issue with the error message and a link to your GitHub repository.
 
 **Hosting your site with Netlify or Cloudflare and experience strange behavior such as filters not working?**
 
