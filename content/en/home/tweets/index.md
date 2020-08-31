@@ -5,7 +5,7 @@ active = true  # Activate this widget? true/false
 weight = 40  # Order that this section will appear.
 
 title = "A large community"
-subtitle = "See what fans are saying [*#MadeWithAcademic*](https://twitter.com/search?q=%23MadeWithAcademic&src=typd) / [*#MadeWithWowchemy*](https://twitter.com/search?q=%23MadeWithWowchemy&src=typd)"
+subtitle = "See what fans are saying [*#MadeWithWowchemy*](https://twitter.com/search?q=(%23MadeWithWowchemy%20OR%20%23MadeWithAcademic)&src=typed_query)"
 +++
 
 <div class="tweets card-columns">
