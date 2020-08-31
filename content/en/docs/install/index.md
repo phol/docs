@@ -1,5 +1,6 @@
 ---
 title: Create a site with Github/Gitlab
+linktitle: Create a site
 date: 2020-06-18
 type: book
 weight: 10
@@ -7,11 +8,13 @@ weight: 10
 
 {{< figure src="featured.png" title="" >}}
 
-{{% cta cta_link="https://app.netlify.com/start/deploy?repository=https://github.com/sourcethemes/academic-kickstart" cta_text="Create your **resumé** or **academic site** now with Github :rocket:" %}}
+<!-- [Choose a template]({{< relref "/templates/index.md" >}}). -->
 
-{{% cta cta_link="https://app.netlify.com/start/deploy?repository=https://github.com/sourcethemes/academic-starter-blog" cta_text="Create your **blog** now with Github :rocket:" %}}
+{{% cta cta_link="https://app.netlify.com/start/deploy?repository=https://github.com/wowchemy/starter-academic" cta_text="Create your **resumé** or **academic site** now with Github :rocket:" %}}
 
-{{% cta cta_link="https://app.netlify.com/start/deploy?repository=https://github.com/sourcethemes/academic-starter-book" cta_text="Create a **documentation site** or **notebook** with Github :rocket:" %}}
+{{% cta cta_link="https://app.netlify.com/start/deploy?repository=https://github.com/wowchemy/starter-blog" cta_text="Create your **blog** now with Github :rocket:" %}}
+
+{{% cta cta_link="https://app.netlify.com/start/deploy?repository=https://github.com/wowchemy/starter-book" cta_text="Create a **documentation site** or **notebook** with Github :rocket:" %}}
 
 {{% cta cta_alt_link="../install-locally/" cta_alt_text="Alternatively, install on your computer" %}}
 
