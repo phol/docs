@@ -41,7 +41,7 @@ hero_media = "screenshot-alpha.png"
   
 [cta_alt]
   url = "./templates/"
-  label = "View Demo"
+  label = "View Templates"
 
 # Note. An optional note to show underneath the links.
 [cta_note]
