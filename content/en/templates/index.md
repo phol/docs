@@ -1,7 +1,7 @@
 ---
 title: Templates
 date: 2020-08-12
-summary: Choose a template, color theme, and font for your Academic powered site.
+summary: Choose a template, color theme, and font for your Wowchemy site.
 type: tpl_chooser
 aliases: ["/themes/"]
 ---

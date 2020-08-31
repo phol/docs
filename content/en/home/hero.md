@@ -3,9 +3,9 @@
 widget = "hero"  # See https://sourcethemes.com/academic/docs/page-builder/
 headless = true  # This file represents a page section.
 active = true  # Activate this widget? true/false
-weight = 10  # Order that this section will appear.
+weight = 5  # Order that this section will appear.
 
-title = "Academic"
+title = "Wowchemy"
 
 # Hero image (optional). Enter filename of an image in the `static/img/` folder.
 hero_media = "screenshot-alpha.png"
@@ -40,7 +40,7 @@ hero_media = "screenshot-alpha.png"
   icon = "download"
   
 [cta_alt]
-  url = "./themes/"
+  url = "./templates/"
   label = "View Demo"
 
 # Note. An optional note to show underneath the links.

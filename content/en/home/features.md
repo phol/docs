@@ -8,7 +8,7 @@ weight = 20  # Order that this section will appear.
   icon = "battery-full"
   icon_pack = "fas"
   name = "Highly Flexible"
-  description = "Easily manage many different types of content including the homepage, blog posts, publications, talks, slides, online courses, software documentation, projects, and custom pages. Academic even has multilingual support for 15+ languages."
+  description = "Easily manage many different types of content including the homepage, blog posts, publications, talks, slides, online courses, software documentation, projects, and custom pages. Wowchemy even has multilingual support for 15+ languages."
   
 [[feature]]
   icon = "edit"
@@ -20,6 +20,6 @@ weight = 20  # Order that this section will appear.
   icon = "brush"
   icon_pack = "fas"
   name = "Themes & Plugins"
-  description = "Academic has a powerful theme and plugin system. Themes let you modify Academic's colors to suit your preferences. Then choose the widgets you want and place them where you want."    
+  description = "Wowchemy has a powerful theme and plugin system. Themes let you modify Wowchemy's colors to suit your preferences. Then choose the widgets you want and place them where you want."    
 
 +++

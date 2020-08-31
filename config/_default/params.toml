@@ -13,7 +13,7 @@
 #   Latest themes (may require updating): https://sourcethemes.com/academic/themes/
 #   Browse built-in themes in `themes/academic/data/themes/`
 #   Browse user installed themes in `data/themes/`
-theme = "academic"
+theme = "wowchemy"
 
 # Enable users to switch between day and night mode?
 day_night = true
@@ -22,7 +22,7 @@ day_night = true
 #   Latest font sets (may require updating): https://sourcethemes.com/academic/themes/
 #   Browse built-in font sets in `themes/academic/data/fonts/`
 #   Browse user installed font sets in `data/fonts/`
-font = "academic"
+font = "wowchemy"
 
 # Choose a font size.
 # Sizes: XS (extra small), S (small), M (medium), L (large - DEFAULT), XL (extra large)
@@ -75,7 +75,7 @@ privacy_pack = false
 
 # Enable visitors to edit pages?
 #   `repo` defines the repository URL. `editable` defines which page types can be edited.
-edit_page = {repo_url = "https://github.com/sourcethemes/academic-www", content_dir = "content/en", repo_branch = "master", editable = {docs = true, updates = true, page = true, post = false}}
+edit_page = {repo_url = "https://github.com/wowchemy/docs", content_dir = "content/en", repo_branch = "master", editable = {docs = true, updates = true, page = true, post = false}}
 
 ############################
 ## Contact details
@@ -124,7 +124,7 @@ edit_page = {repo_url = "https://github.com/sourcethemes/academic-www", content_
 sharing_image = "sharing.png"
 
 # Twitter username (without @). Used when a visitor shares your site on Twitter.
-twitter = "source_themes"
+twitter = "wowchemy"
 
 ############################
 ## Regional Settings

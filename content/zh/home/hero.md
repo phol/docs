@@ -7,7 +7,7 @@ headless = true  # This file represents a page section.
 active = true  # Activate this widget? true/false
 weight = 10  # Order that this section will appear.
 
-title = "Academic"
+title = "Wowchemy"
 
 # Hero image (optional). Enter filename of an image in the `static/img/` folder.
 hero_media = "screenshot-alpha.png"
@@ -42,7 +42,7 @@ hero_media = "screenshot-alpha.png"
   icon = "rocket"
   
 [cta_alt]
-  url = "https://academic-demo.netlify.app"
+  url = "../templates/"
   label = "样例展示"
 
 # Note. An optional note to show underneath the links.

@@ -5,7 +5,7 @@ active = true  # Activate this widget? true/false
 weight = 40  # Order that this section will appear.
 
 title = "A large community"
-subtitle = "See what fans are saying [*#MadeWithAcademic*](https://twitter.com/search?q=%23MadeWithAcademic&src=typd)"
+subtitle = "See what fans are saying [*#MadeWithAcademic*](https://twitter.com/search?q=%23MadeWithAcademic&src=typd) / [*#MadeWithWowchemy*](https://twitter.com/search?q=%23MadeWithWowchemy&src=typd)"
 +++
 
 <div class="tweets card-columns">
@@ -15,11 +15,11 @@ If you’re an academic you need a website so that people can easily find info a
 {{< /tweet_card >}}
 
 {{< tweet_card name="Nathan Genetzky" username="@NGenetzky" link="https://twitter.com/NGenetzky/status/1051682710031339521" >}}
-I have been so satisfied with my website built from Markdown using the awesome Academic framework by @GeorgeCushen!
+I have been so satisfied with my website built from Markdown using the awesome [Wowchemy] framework by @GeorgeCushen!
 {{< /tweet_card >}}
 
 {{< tweet_card name="DAPPER Stats" username="@DapperStats" link="https://twitter.com/DapperStats/status/1257738330239676416" >}}
-Very proud of the new DAPPER Stats website we #MadeWithAcademic!
+Very proud of the new DAPPER Stats website we #MadeWith[Wowchemy]!
 {{< /tweet_card >}}
 
 </div>
