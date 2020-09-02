@@ -1,117 +1,181 @@
 ---
-title: Create a site locally
+title: Edit your site on your PC
+linktitle: Edit on your PC
 date: 2016-04-20
 type: book
 weight: 20
 ---
 
-We highly **recommend** the [**one-minute Github/Gitlab install** using your web browser]({{< relref "install.md" >}}) **prior** to following the steps on this page to download and edit your site on your computer.
+We highly **recommend** the [**one-minute Github/Gitlab install** using your web browser]({{< relref "install.md" >}}) **before** considering following the steps on this page to download and edit your site on your computer.
 
-However, we can also skip the Github/Gitlab install and edit your site directly on your computer, [deploying to your preferred provider]({{< relref "deployment.md" >}}).
+Alternatively, we can skip the Github install for now, edit your site directly on your computer, and [deploy later to your preferred provider]({{< relref "deployment.md" >}}).
 
-You can choose from one of the following methods to install your site on your computer:
+For **beginners**, we recommend using the [cloud editing tools]({{< relref "install.md" >}}) rather than setting up an editing environment on your computer.
 
-* [install _Kickstart_ Template on your computer using **Git**](#install-with-git) with the Command Prompt/Terminal app
-* [install _Kickstart_ Template on your computer by **downloading the ZIP** files](#install-with-zip)
-* [install _Kickstart_ Template on your computer with **RStudio**](#install-with-rstudio)
-* [install _Book_ Template on your computer](#install-book-template)
+## Prerequisites
 
-[After installing, check out the guide to personalizing your site]({{< relref "get-started.md" >}}).
+Before downloading your site, lets first install [_Hugo Extended_](https://gohugo.io/getting-started/installing/) and [its prerequisites](https://gohugo.io/hugo-modules/use-modules/#prerequisite).
 
-## Install with Git
+Choose your operating system below to get started.
 
-Prerequisites:
+### Mac
 
-* [Download and install Git](https://git-scm.com/downloads)
-* [Download and install Hugo Extended v0.73](https://gohugo.io/getting-started/installing/#quick-install)
-  - Ensure you install the **full** version of Hugo, named **_Hugo Extended_**
+Open the **Terminal** app.
 
-Install:
+Install _Homebrew_, the Mac package manager, by pasting the following command and pressing the _Enter_ ↵ key:
 
-1. [Fork](https://github.com/sourcethemes/academic-kickstart#fork-destination-box) the *Academic Kickstart* repository to create a new website
-   * If you already created your site with **Netlify**, then **skip this step**
-2. Clone your fork to your computer with Git, **replacing `sourcethemes` in the command below with your GitHub username**:
+```sh
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
+```
 
-        git clone https://github.com/sourcethemes/academic-kickstart.git My_Website
+Apply any Homebrew updates:
 
-3. Initialize the theme:
+```
+brew update && brew upgrade
+```
 
-        cd My_Website
-        git submodule update --init --recursive
+Install Hugo and its dependencies:
 
-Now you're ready to [personalize and view your site]({{< relref "get-started.md" >}}).
+```sh
+brew install git golang hugo
+```
 
-## Install with ZIP
+### Windows
 
-Prerequisites:
+Install and open the Windows [Powershell 5](https://aka.ms/wmf5download) app.
 
-* [Download and install Hugo Extended v0.73](https://gohugo.io/getting-started/installing/#quick-install)
-  - Ensure you install the **full** version of Hugo, named **_Hugo Extended_**
+Install _Scope_, the package manager for Windows, by pasting the following commands into Powershell and pressing the  _Enter_ ↵ key:
 
-Install:
+```
+Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
+iwr -useb get.scoop.sh | iex
+```
 
-1. [Download](https://github.com/sourcethemes/academic-kickstart/archive/master.zip) and extract *Academic Kickstart*
-2. [Download](https://github.com/gcushen/hugo-academic/archive/master.zip) and extract the *Academic theme* files from the `hugo-academic-master` folder to the `themes/academic/` folder in *Academic Kickstart*
+Install Hugo and its dependencies:
 
-Now you're ready to [personalize and view your site]({{< relref "get-started.md" >}}).
+```sh
+scoop install git openssh go hugo-extended
+setx GOPATH "%scoopApps%/go" /M
+setx GOBIN "%GOPATH%/bin" /M
+setx PATH "%PATH%;%GOBIN%" /M
+```
 
-## Install with RStudio
+### Linux
 
-1. Follow the [Install with Git](#install-with-git) instructions above if you are confident with Git, or otherwise [Install with ZIP](#install-with-zip).
-   - Skip the *Install Hugo* step as we'll use RStudio to install Hugo
-2. Open [RStudio](https://www.rstudio.com/products/rstudio/), installing the *Blogdown* and *Hugo* dependencies:
+Using [Snap](https://snapcraft.io/go):
+
+```sh
+sudo snap install --classic go
+snap install hugo --channel=extended
+```
+
+<!--
+### Docker
+
+Guide coming soon. Ask on our Discord.
+-->
+
+### Troubleshooting
+
+For issues installing Hugo Extended, [ask the Hugo community](https://discourse.gohugo.io).
+
+## Download a Template
+
+If you already [created your site with Github]({{< relref "install.md" >}}):
+
+ - locate your [Github](https://github.com/) repository, and either download the ZIP or use Git clone to download it
+ 
+{{< figure src="download.png" title="" numbered="false" width="50%" >}}
+
+**Otherwise**, create a new site by downloading a [Starter Template]({{< relref "/templates" >}}) either directly, or using Git:
+
+- [Download _Academic_ Template](https://github.com/wowchemy/starter-academic/archive/master.zip)
+  - Or with Git: `git clone https://github.com/wowchemy/starter-academic.git`
+- [Download _Blog_ Template](https://github.com/wowchemy/starter-blog/archive/master.zip)
+  - Or with Git: `git clone https://github.com/wowchemy/starter-blog.git`
+- [Download _Book_ Template](https://github.com/wowchemy/starter-book/archive/master.zip)
+  - Or with Git: `git clone https://github.com/wowchemy/starter-book.git`
+
+Then open your **Terminal** (Mac/Linux) or **Powershell** (Windows) app and [use the `cd` command to navigate](https://www.4winkey.com/windows-10/change-directory-in-cmd-on-windows-10-via-command-line.html) to your website folder.
+
+View your site by running the following command:
+
+```sh
+hugo server
+```
+
+Hugo then provides you with a link (e.g. `http://localhost:1313/`) to open in your web browser.
+
+### Convert an old Academic Kickstarter site
+
+If you have an existing site based on the Academic Kickstarter Template that was created before 3rd September 2020, it may need converting to use Hugo's new modular system.
+
+Open your **Terminal** (Mac/Linux) or **Powershell** (Windows) app and [use the `cd` command to navigate](https://www.4winkey.com/windows-10/change-directory-in-cmd-on-windows-10-via-command-line.html) to your website folder.
+
+Remove the Git submodule for Academic:
+
+```sh
+git submodule deinit themes/academic    
+git rm themes
+```
+
+(Alternatively, deleting the `.gitmodules` file and the `themes` folder will remove most of the old system.)
+
+Then [update `config/_defaults/config.toml`](https://github.com/wowchemy/starter-academic/blob/master/config/_default/config.toml):
+
+- Remove `theme = "academic"`
+- Add to the bottom of the file:
+  ```toml
+  [module]
+    [[module.imports]]
+      path = "github.com/wowchemy/wowchemy-hugo-modules/wowchemy"
+  ```
+
+## Install a Markdown Editor
+
+Choose a Markdown editor. If you're unsure, we recommend Typora.
+
+### Typora
+
+[Get Typora](https://typora.io/)
+
+### Visual Studio Code
+
+[Get Visual Studio Code](https://code.visualstudio.com/)
+
+### JupyterLab
+
+[Get JupyterLab](https://jupyter.org/install)
+
+### RStudio
+
+1. Open [RStudio](https://www.rstudio.com/products/rstudio/) and install *Blogdown*:
 
         install.packages("blogdown")
-        blogdown::install_hugo(version = "0.73.0", force = TRUE)
 
-3. Open `academic.Rproj` from the *Academic Kickstart* folder in *Step 1*
+1. Open `academic.Rproj` from your site's folder, [downloading it if necessary](https://github.com/wowchemy/starter-academic/blob/master/academic.Rproj)
 
-4. Workaround a [Blogdown bug](https://github.com/rstudio/blogdown/issues/359) by moving `config/_default/config.toml` to `config.toml` at your project root
+1. Workaround a [Blogdown bug](https://github.com/rstudio/blogdown/issues/359) by moving your site's `config/_default/config.toml` to `config.toml` at your project root
 
-5. In the RStudio menu bar, choose **Addins > Serve Site** (clicking this button will call `blogdown:::serve_site()`)
+1. In the RStudio menu bar, choose **Addins > Serve Site** (clicking this button will call `blogdown:::serve_site()`)
    - Paste the local URL which RStudio provides (e.g. http://127.0.0.1:4321) into your web browser to preview your new site
    - Avoid using the integrated RStudio web browser as it is very outdated and buggy
 
-Now you're ready to [personalize your site]({{< relref "get-started.md" >}}).
-
-Note that **R content should be saved with the `.Rmarkdown` file extension** rather than `.Rmd`.
-
-## Install Book Template
-
-To install the _Book_ template:
-
-1. [Fork](https://github.com/sourcethemes/academic-starter-book#fork-destination-box) the *Book* repository to create a new website
-   - If you already created your site with **Netlify**, then **skip this step**
-2. Clone your fork to your computer with Git, **replacing `sourcethemes` in the command below with your GitHub username**:
-
-        git clone https://github.com/sourcethemes/academic-starter-book.git My_Website
-
-3. Initialize and view the template using [Hugo Modules](https://gohugo.io/hugo-modules/use-modules/):
-
-        cd My_Website
-        hugo server
-
-## Demo content
-
-For inspiration, refer to the [Markdown content](https://github.com/gcushen/hugo-academic/tree/master/exampleSite) which powers the [Demo](https://academic-demo.netlify.app/).
-
-If you wish to initialise your site with the demo content, copy the contents of the `themes/academic/exampleSite/` folder to your website root folder, overwriting existing files if necessary. The `exampleSite` folder contains an example config file and content to help you get started. The following command can be used to accomplish this:
-
-```bash
-cp -av themes/academic/exampleSite/* .
-```
+**We recommend** saving R content as Markdown with the **`.Rmarkdown` file extension** rather than as HTML with the `.Rmd` extension.
 
 ## Unlock rewards
 
 {{% alert thanks %}}
-**We're full steam ahead on improving Academic, and we need your help!**
+**We're full steam ahead on improving Wowchemy, and we need your help!**
 
 - :heart: [**Become a backer** on Patreon or GitHub]({{< relref "/plans.md" >}}) and **unlock [these]({{< relref "/plans.md" >}}) rewards and extra features**
-- ⭐️ [**Star** Academic on **GitHub**](https://github.com/gcushen/hugo-academic)
-- {{< icon name="twitter" pack="fab" >}} [**Share your new site** with the Academic community](https://twitter.com/intent/tweet?text=I%27m%20creating%20a%20beautiful%20website%20using%20the%20Academic%20Website%20Builder%20for%20%40GoHugoIO%20by%20%40GeorgeCushen!&amp;hashtags=MadeWithAcademic&amp;url=https://sourcethemes.com/academic/)
-- :woman_technologist: [**Contribute** code, PR reviews, documentation, color themes, tutorials, etc.](https://github.com/gcushen/hugo-academic/blob/master/.github/contributing.md)
+- ⭐️ [**Star** Wowchemy on **GitHub**](https://github.com/wowchemy/wowchemy-hugo-modules/)
+- {{< icon name="twitter" pack="fab" >}} [**Share your new site** with the Wowchemy community](https://twitter.com/intent/tweet?text=I%27m%20creating%20a%20beautiful%20website%20using%20the%20Wowchemy%20Website%20Builder%20for%20%40GoHugoIO%20by%20%40GeorgeCushen!&amp;hashtags=MadeWithWowchemy&amp;url=https://wowchemy.com)
+- :woman_technologist: [**Contribute** code, PR reviews, documentation, color themes, tutorials, etc.](https://github.com/wowchemy/wowchemy-hugo-modules/blob/master/.github/contributing.md)
 {{% /alert %}}
 
-## Next steps
+## Edit your site
 
 [Follow the step by step guide to setup your new site]({{< relref "get-started.md" >}}).
+
+For inspiration, refer to the [Markdown content](https://github.com/wowchemy/starter-academic) which powers the [Academic Template](https://academic-demo.netlify.app/).
