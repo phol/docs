@@ -27,7 +27,7 @@ Note that if you installed a build in the *master* version rather than a specifi
 
 ### Prerequisites
 
-Install a compatible version of [Hugo Extended]({{< relref "./install-locally/index.md" >}}) and its dependencies.
+[Install]({{< relref "./install-locally/index.md" >}}) a compatible version of Hugo Extended and its dependencies.
 
 If your site does not have a `go.mod` file, [convert your site to use the Wowchemy Hugo Module](#convert-an-old-academic-kickstarter-site).
 
