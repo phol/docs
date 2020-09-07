@@ -27,12 +27,11 @@ Note that if you installed a build in the *master* version rather than a specifi
 
 ### Prerequisites
 
-[Install]({{< relref "./install-locally/index.md" >}}) a compatible version of Hugo Extended and its dependencies.
+[**Install**]({{< relref "./install-locally/index.md" >}}) a compatible version of Hugo Extended and its dependencies.
 
-If your site does not have a `go.mod` file, [convert your site to use the Wowchemy Hugo Module](#convert-an-old-academic-kickstarter-site).
+If your site **does not have a `go.mod` file**, [convert your site to use the Wowchemy Hugo Module]({{< relref "./install-locally/index.md#convert-an-old-academic-kickstarter-site" >}}).
 
-If your site has a `go.mod` file and was created before _3rd September 2020_, having `path = "github.com/gcushen/hugo-academic"
-` in `config/_default/config.toml`, update the path to `github.com/wowchemy/wowchemy-hugo-modules/wowchemy`.
+If your site **has a `go.mod` file**, open the file in a text editor (such as the GitHub editor), and check that `path = "github.com/wowchemy/wowchemy-hugo-modules/wowchemy"`.
 
 ### Update
 
