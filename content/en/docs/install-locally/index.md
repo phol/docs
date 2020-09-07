@@ -40,6 +40,12 @@ Install Hugo and its dependencies:
 brew install git golang hugo
 ```
 
+Open the hidden `~/.zshrc` (or `~/.bashrc`) file in a text editor, add the following line, and restart your Terminal app so that Hugo can find the location of its Go dependency.
+
+```sh
+export PATH=$PATH:/usr/local/go/bin
+```
+
 ### Windows
 
 Install and open the Windows [Powershell 5](https://aka.ms/wmf5download) app.
