@@ -68,11 +68,18 @@ setx PATH "%PATH%;%GOBIN%" /M
 
 ### Linux
 
-Using [Snap](https://snapcraft.io/go):
+Install Hugo Extended for **Ubuntu 19.04+**:
+
+```
+sudo apt-get install hugo
+```
+
+Alternatively, for **other Linux distributions**, [download the Hugo Extended binary and add it to the system path](https://gohugo.io/getting-started/installing/#binary-cross-platform).
+
+Install Hugo's Go dependency using [Snap](https://snapcraft.io/go):
 
 ```sh
 sudo snap install --classic go
-snap install hugo --channel=extended
 ```
 
 <!--
