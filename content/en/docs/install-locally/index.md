@@ -18,6 +18,25 @@ Before downloading your site, lets first install [_Hugo Extended_](https://gohug
 
 Choose your operating system below to get started.
 
+### Windows
+
+Open the Windows [Powershell 5](https://aka.ms/wmf5download) app, installing it if necessary.
+
+Install _Scope_, the package manager for Windows, by pasting the following commands into Powershell and pressing the  _Enter_ ↵ key:
+
+```
+Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
+iwr -useb get.scoop.sh | iex
+```
+
+Press `Y` and enter if asked `Do you want to change the execution policy?`.
+
+Install Hugo and its dependencies:
+
+```sh
+scoop install git openssh go hugo-extended
+```
+
 ### Mac
 
 Open the **Terminal** app.
@@ -46,35 +65,17 @@ Open the hidden `~/.zshrc` (or `~/.bashrc`) file in a text editor, add the follo
 export PATH=$PATH:/usr/local/go/bin
 ```
 
-### Windows
-
-Install and open the Windows [Powershell 5](https://aka.ms/wmf5download) app.
-
-Install _Scope_, the package manager for Windows, by pasting the following commands into Powershell and pressing the  _Enter_ ↵ key:
-
-```
-Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
-iwr -useb get.scoop.sh | iex
-```
-
-Install Hugo and its dependencies:
-
-```sh
-scoop install git openssh go hugo-extended
-setx GOPATH "%scoopApps%/go" /M
-setx GOBIN "%GOPATH%/bin" /M
-setx PATH "%PATH%;%GOBIN%" /M
-```
-
 ### Linux
 
-Install Hugo Extended for **Ubuntu 19.04+**:
+For *Ubuntu* based distributions:
 
-```
-sudo apt-get install hugo
-```
+ - [Download](https://github.com/gohugoio/hugo/releases) the Hugo Extended installer for Debian (`hugo_extended_<VERSION>_Linux-64bit.deb`) and double-click the downloaded file to install with _Ubuntu Software Center_.
 
-Alternatively, for **other Linux distributions**, [download the Hugo Extended binary and add it to the system path](https://gohugo.io/getting-started/installing/#binary-cross-platform).
+For other Linux distributions:
+
+- [Download](https://github.com/gohugoio/hugo/releases) the Hugo Extended binary (`hugo_extended_<VERSION>_Linux-64bit.tar.gz`)
+- Extract the download and move the `hugo` app to your website folder
+  - Or, better yet, [move the `hugo` app to your app folder and add Hugo to the system path](https://gohugo.io/getting-started/installing/#binary-cross-platform)
 
 Install Hugo's Go dependency using [Snap](https://snapcraft.io/go):
 
@@ -109,7 +110,12 @@ If you already [created your site with Github]({{< relref "install.md" >}}):
 - [Download _Book_ Template](https://github.com/wowchemy/starter-book/archive/master.zip)
   - Or with Git: `git clone https://github.com/wowchemy/starter-book.git`
 
+If you downloaded a template, **extract the ZIP** file's contents to a folder.
+
 Then open your **Terminal** (Mac/Linux) or **Powershell** (Windows) app and [use the `cd` command to navigate](https://www.4winkey.com/windows-10/change-directory-in-cmd-on-windows-10-via-command-line.html) to your website folder.
+
+- On Windows, for example: `cd ~\Downloads\starter-academic-master\starter-academic-master\`
+- On Mac or Linux, for example: `cd ~/Downloads/starter-academic-master/starter-academic-master/`
 
 View your site by running the following command:
 
@@ -150,17 +156,19 @@ Choose a Markdown editor. If you're unsure, we recommend Typora.
 
 ### Typora
 
-[Get Typora](https://typora.io/)
+[Get Typora](https://typora.io/), a beautifully simple and user-friendly editor with support for visualizing technical content, such as math and diagrams.
 
 ### Visual Studio Code
 
-[Get Visual Studio Code](https://code.visualstudio.com/)
+[Get Visual Studio Code](https://code.visualstudio.com/), a popular editor with an active online community for support.
 
 ### JupyterLab
 
-[Get JupyterLab](https://jupyter.org/install)
+[Get JupyterLab](https://jupyter.org/install), a familiar editor for data analysts, data scientists, and researchers.
 
 ### RStudio
+
+A popular editor with statisticians.
 
 1. Open [RStudio](https://www.rstudio.com/products/rstudio/) and install *Blogdown*:
 
