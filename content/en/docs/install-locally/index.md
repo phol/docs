@@ -150,6 +150,12 @@ Then [update `config/_defaults/config.toml`](https://github.com/wowchemy/starter
       path = "github.com/wowchemy/wowchemy-hugo-modules/wowchemy"
   ```
 
+Add the new [go.mod](https://github.com/wowchemy/starter-academic/blob/master/go.mod) and [go.sum](https://github.com/wowchemy/starter-academic/blob/master/go.sum) files to your site folder. The `go.mod` file tells Hugo which version of Wowchemy to load.
+
+Finally, [Update]({{< relref "update" >}}) your site, consecutively applying any breaking changes from the relevant [Release Notes](../updates).
+
+You may find it useful to compare your site with the latest [Academic template](https://github.com/wowchemy/starter-academic).
+
 ## Install a Markdown Editor
 
 Choose a Markdown editor. If you're unsure, we recommend Typora.
