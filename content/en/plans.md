@@ -27,4 +27,5 @@ Supporters on [Patreon](https://www.patreon.com/cushen) and [GitHub](https://git
 - Julio Meneses
 - Dominik Schürmann
 - Mark Newman
-
+- Mario Z
+- [mehedi-sharif](https://github.com/mehedi-sharif)
