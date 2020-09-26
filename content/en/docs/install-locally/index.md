@@ -91,7 +91,7 @@ Guide coming soon. Ask on our Discord.
 
 ### Troubleshooting
 
-For issues installing Hugo Extended, [ask the Hugo community](https://discourse.gohugo.io).
+For issues installing or using Hugo Extended and its dependencies, [ask the Hugo community](https://discourse.gohugo.io).
 
 ## Download a Template
 

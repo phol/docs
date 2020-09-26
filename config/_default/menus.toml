@@ -62,7 +62,7 @@
 [[main_right]]
   name = "<i class=\"far fa-question-circle\" style=\"color: rgb(123, 22, 255); font-size: 1rem; line-height: 1.25\"></i>"
   post = ""
-  url = "https://spectrum.chat/academic"
+  url = "https://github.com/wowchemy/wowchemy-hugo-modules/discussions"
   weight = 30
 
 [[main_right]]
