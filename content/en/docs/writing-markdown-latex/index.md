@@ -8,10 +8,10 @@ math: true
 diagram: true
 ---
 
-Rich content can be written in Academic using **Markdown**, [**LaTeX math**](https://en.wikibooks.org/wiki/LaTeX/Mathematics), and **Shortcodes**. This article gives an overview of the most common formatting options, including features that are exclusive to Academic.<!--more-->
+Rich content can be written in Wowchemy using **Markdown**, [**LaTeX math**](https://en.wikibooks.org/wiki/LaTeX/Mathematics), and **Shortcodes**. This article gives an overview of the most common formatting options, including features that are exclusive to Wowchemy.<!--more-->
 
 {{% alert note %}}
-*Shortcodes* are plugins which are bundled with Academic or inherited from [Hugo](http://gohugo.io/extras/shortcodes/). Additionally, **HTML** may be written in Markdown documents for advanced formatting.
+*Shortcodes* are plugins which are bundled with Wowchemy or inherited from [Hugo](http://gohugo.io/extras/shortcodes/). Additionally, **HTML** may be written in Markdown documents for advanced formatting.
 {{% /alert %}}
 
 ## Sub-headings
@@ -55,7 +55,7 @@ Strikethrough with ~~two tildes~~.
 
 ### Todo
 
-Todo lists can be written in Academic by using the standard Markdown syntax:
+Todo lists can be written in Wowchemy by using the standard Markdown syntax:
 
 ```markdown
 - [x] Write math example
@@ -76,7 +76,7 @@ Images may be added to a page by either placing them in your `static/media/` med
 Figures may be [**cross-referenced**](#links).
 
 {{% alert warning %}}
-Prior to Academic v5, the media library is located at `static/img/`.
+Prior to Wowchemy v5, the media library is located at `static/img/`.
 {{% /alert %}}
 
 A figure from your `static/media/` media library:
@@ -115,7 +115,7 @@ gallery_item:
 **Alternatively, create an image gallery with images from the internet or your `static/media/` media library:**
 
 {{% alert warning %}}
-Prior to Academic v5, the media library is located at `static/img/`.
+Prior to Wowchemy v5, the media library is located at `static/img/`.
 {{% /alert %}}
 
 1. Add gallery images to within your `static/media/` media library folder
@@ -141,7 +141,7 @@ To cite a page or publication, you can use the _cite_ shortcode, referencing a f
 
     {{</* cite page="/publication/preprint" view="4" */>}}
     
-where _view_ corresponds to one of the available listing views used throughout Academic:
+where _view_ corresponds to one of the available listing views used throughout Wowchemy:
  
 1. Stream
 2. Compact
@@ -150,7 +150,7 @@ where _view_ corresponds to one of the available listing views used throughout A
  
 If you don't specify a view, it will default to the _compact_ view.
 
-**The cite shortcode requires Academic v5+.**
+**The cite shortcode requires Wowchemy v5+.**
 
 ## Audio
 
@@ -158,7 +158,7 @@ You can add a podcast or music to a page by placing the MP3 file in the page's f
 
     {{</* audio src="markvard.mp3" */>}}
 
-**The audio shortcode requires Academic v5+.**
+**The audio shortcode requires Wowchemy v5+.**
 
 ## Videos
 
@@ -169,7 +169,7 @@ The following kinds of video may be added to a page.
 Videos may be added to a page by either placing them in your `static/media/` media library or in your [page's folder](https://gohugo.io/content-management/page-bundles/), and then referencing them using one of the following notations.
 
 {{% alert warning %}}
-Prior to Academic v5, the media library is located at `static/img/`.
+Prior to Wowchemy v5, the media library is located at `static/img/`.
 {{% /alert %}}
 
 A video from your `static/media/` media library:
@@ -216,7 +216,7 @@ Use `{{</* list_tags */>}}` to provide a list of linked tags or `{{</* list_cate
 
 ## Charts
 
-Academic supports the popular [Plotly](https://plot.ly/) chart format.
+Wowchemy supports the popular [Plotly](https://plot.ly/) chart format.
 
 Save your Plotly JSON in your page folder, for example `chart.json`, and then add the `{{</* chart data="chart" */>}}` shortcode where you would like the chart to appear.
 
@@ -226,19 +226,19 @@ Demo:
 
 You might also find the [Plotly JSON Editor](http://plotly-json-editor.getforge.io/) useful.
 
-**The _chart_ shortcode requires Academic v5+.**
+**The _chart_ shortcode requires Wowchemy v5+.**
 
 ## Emojis
 
 See the [Emoji cheat sheet](http://www.webpagefx.com/tools/emoji-cheat-sheet/) for available emoticons. The following serves as an example, but you should remove the spaces between each emoji name and pair of semicolons:
 
-    I : heart : Academic : smile :
+    I : heart : Wowchemy : smile :
     
-I :heart: Academic :smile:
+I :heart: Wowchemy :smile:
 
 ## Icons
 
-Since **v4.8+**, Academic enables you to use a wide range of [icons from _Font Awesome_ and _Academicons_]({{< relref "page-builder.md#icons" >}}) in addition to [emojis](#emojis).
+Since **v4.8+**, Wowchemy enables you to use a wide range of [icons from _Font Awesome_ and _Academicons_]({{< relref "page-builder.md#icons" >}}) in addition to [emojis](#emojis).
 
 Here are some examples using the _icon_ shortcode to render icons:
 
@@ -270,9 +270,9 @@ This is a {{< hl >}}highlighted quote{{< /hl >}}.
 
 ## Mention a user
 
-To mention someone, type `{{%/* mention "username" */%}}` where `username` corresponds to a user account in Academic.
+To mention someone, type `{{%/* mention "username" */%}}` where `username` corresponds to a user account in Wowchemy.
 
-_Requires Academic v4.6+._
+_Requires Wowchemy v4.6+._
 
 ## Footnotes
 
@@ -293,7 +293,7 @@ To embed **Google Documents** (e.g. slide deck), click *File > Publish to web > 
 
 ## Diagrams
 
-Academic supports a Markdown extension for diagrams. You can enable this feature by toggling the `diagram` option in your `config/_default/params.toml` file or by adding `diagram: true` to your page front matter. Then insert your [Mermaid diagram syntax](https://mermaidjs.github.io) within a *mermaid* code block as seen below and that's it. _Note: Academic v4.4.0+ is required to make diagrams._
+Wowchemy supports a Markdown extension for diagrams. You can enable this feature by toggling the `diagram` option in your `config/_default/params.toml` file or by adding `diagram: true` to your page front matter. Then insert your [Mermaid diagram syntax](https://mermaidjs.github.io) within a *mermaid* code block as seen below and that's it. _Note: Wowchemy v4.4.0+ is required to make diagrams._
 
 An example **flowchart**:
 
@@ -375,7 +375,7 @@ gantt
 
 ### Advanced diagrams
 
-More advanced diagrams can be created in the open source [draw.io](https://draw.io) editor. The editor has support for almost any type of diagram, from simple to complex. A diagram can be easily embedded in Academic by choosing **File > Embed > SVG** in the [draw.io](https://draw.io) editor and pasting the generated code into your page.
+More advanced diagrams can be created in the open source [draw.io](https://draw.io) editor. The editor has support for almost any type of diagram, from simple to complex. A diagram can be easily embedded in Wowchemy by choosing **File > Embed > SVG** in the [draw.io](https://draw.io) editor and pasting the generated code into your page.
 
 Alternatively, a diagram can be exported as an [image](#images) from any drawing software, or a [document/slide](#embed-documents) containing a diagram can be embedded.
 
@@ -398,7 +398,7 @@ print("You entered: {}".format(input_string_var))
 
 ### Highlighting options
 
-The Academic theme uses [highlight.js](https://highlightjs.org) for source code highlighting, and highlighting is enabled by default for all pages. However, several configuration options are supported that allow finer-grained control over highlight.js.
+The Wowchemy theme uses [highlight.js](https://highlightjs.org) for source code highlighting, and highlighting is enabled by default for all pages. However, several configuration options are supported that allow finer-grained control over highlight.js.
 
 The following table lists the supported options for configuring highlight.js, along with their expected type and a short description. A "yes" in the **config.toml** column means the value can be set globally in `config.toml`, and a "yes" in the **preamble** column means that the value can be set locally in a particular page's preamble.
 
@@ -434,7 +434,7 @@ The `highlight_languages` option provides an easy and convenient way to include 
 
 The `highlight_style` option allows you to select an alternate css style for highlighted code. For example, if you wanted to use the solarized-dark style, you could set `highlight_style = "solarized-dark"` in `params.toml`.
 
-If the `highlight_style` option is unset, the default is to use the file `/css/highlight.min.css`, either the one provided by the Academic theme, or else the one in your local `static` directory.  The `/css/highlight.min.css` file provided by Academic is equivalent to the `github` style from highlight.js.
+If the `highlight_style` option is unset, the default is to use the file `/css/highlight.min.css`, either the one provided by the Wowchemy theme, or else the one in your local `static` directory.  The `/css/highlight.min.css` file provided by Wowchemy is equivalent to the `github` style from highlight.js.
 
 If the `highlight_style` option *is* set, then `/css/highlight.min.css` is ignored, and the corresponding css file will be served from the [cdnjs server](https://cdnjs.com/libraries/highlight.js/). To see a list of available styles, visit the [cdnjs page](https://cdnjs.com/libraries/highlight.js/) and search for links with the word "styles".
 
@@ -445,7 +445,7 @@ Not all styles listed on the [highlight.js demo page](https://highlightjs.org/st
 {{% /alert %}}
 
 {{% alert note %}}
-If you don't want to change the default style that ships with Academic but you do want the style file served from the [cdnjs server](https://cdnjs.com/libraries/highlight.js/), set `highlight_style = "github"` in `params.toml`.
+If you don't want to change the default style that ships with Wowchemy but you do want the style file served from the [cdnjs server](https://cdnjs.com/libraries/highlight.js/), set `highlight_style = "github"` in `params.toml`.
 {{% /alert %}}
 
 The `highlight_style` option is only recognized when set in `params.toml`. Setting `highlight_style` in your page's preamble has no effect.
@@ -466,10 +466,10 @@ To include a single tweet, pass the tweet’s ID from the tweet's URL as paramet
 
 ## $\rm \LaTeX$ math
 
-Academic supports a Markdown extension for $\LaTeX$ math. You can enable this feature by toggling the `math` option in your `config/_default/params.toml` file.
+Wowchemy supports a Markdown extension for $\LaTeX$ math. You can enable this feature by toggling the `math` option in your `config/_default/params.toml` file.
 
 {{% alert warning %}}
-Prior to Academic v4.7, you'll also need to add `markup: mmark` to your page front matter in order to display math.
+Prior to Wowchemy v4.7, you'll also need to add `markup: mmark` to your page front matter in order to display math.
 {{% /alert %}}
 
 To render *inline* or *block* math, wrap your LaTeX math with `$...$` or `$$...$$`, respectively.
@@ -502,7 +502,7 @@ $$f(k;p_0^*) = \begin{cases} p_0^* & \text{if }k=1, \\\\
 1-p_0^* & \text {if }k=0.\end{cases}$$
 
 {{% alert warning %}}
-As Hugo and Academic attempt to parse YAML, Markdown, and LaTeX content in the abstract field for publications and talks, Markdown special characters need to be escaped in any math within the abstract fields by using a backslash to prevent the math being parsed as Markdown. The following tips may help:
+As Hugo and Wowchemy attempt to parse YAML, Markdown, and LaTeX content in the abstract field for publications and talks, Markdown special characters need to be escaped in any math within the abstract fields by using a backslash to prevent the math being parsed as Markdown. The following tips may help:
 
 - escape each LaTeX backslash (`\`) with an extra backslash, yielding `\\`
 - escape each LaTeX underscore (`_`) with two backslashes, yielding `\\_`
@@ -529,35 +529,39 @@ Result:
 | `hugo serve -w`   | View your website.             |
 
 
-## Asides
+## Callouts
 
-Academic supports a Markdown extension for asides, also referred to as *alerts*.
+Wowchemy supports a Markdown extension for callouts, also referred to as _alerts_ or _asides_.
 
-Asides are a useful feature that **add side content such as notes, hints, or warnings to your articles**. They are especially handy when writing educational tutorial-style articles or documentation.
+Callouts are a useful feature to **draw attention to important or related content** such as notes, hints, or warnings in your articles. They are especially handy when writing educational tutorial-style articles or documentation.
 
-You can enable this feature either by using the _Alert_ shortcode below. The paragraph will render as an aside with the default *note* style:
+A callout can be created by using the _Callout_ shortcode below. (For older Wowchemy versions prior to v5, replace `callout` in the examples below with `alert`.)
 
-    {{%/* alert note */%}}
-    A Markdown aside is useful for displaying notices, hints, or definitions to your readers.
-    {{%/* /alert */%}}
+Wowchemy comes built-in with a few different styles of callouts.
+
+The paragraph will render as a callout with the default *note* style:
+
+    {{%/* callout note */%}}
+    A Markdown callout is useful for displaying notices, hints, or definitions to your readers.
+    {{%/* /callout */%}}
 
 This will display the following *note* block:
 
-{{% alert note %}}
-A Markdown aside is useful for displaying notices, hints, or definitions to your readers.
-{{% /alert %}}
+{{% callout note %}}
+A Markdown callout is useful for displaying notices, hints, or definitions to your readers.
+{{% /callout %}}
 
-Alternatively, a warning can be displayed to the reader using the the _warning_ option:
+Alternatively, a warning can be displayed to the reader using the _warning_ option:
 
-    {{%/* alert warning */%}}
+    {{%/* callout warning */%}}
     Here's some important information...
-    {{%/* /alert */%}}
+    {{%/* /callout */%}}
 
 This will display the following *warning* notice to the reader:
 
-{{% alert warning %}}
+{{% callout warning %}}
 Here's some important information...
-{{% /alert %}}
+{{% /callout %}}
 
 ## Table of Contents
 
