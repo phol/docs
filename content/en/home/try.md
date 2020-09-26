@@ -8,6 +8,6 @@ title = "Ready to try Wowchemy?"
 subtitle = "Deploy a site in 60 seconds."
 +++
 
-{{% cta cta_link="./docs/install/" cta_text="Get started in seconds :rocket:" cta_alt_link="https://discord.gg/z8wNYzb" cta_alt_text="Questions?" %}}
+{{% cta cta_link="./docs/install/" cta_text="Get started in seconds :rocket:" cta_alt_link="https://discord.gg/z8wNYzb" cta_alt_text="Questions?" cta_alt_new_tab="true" %}}
 
 This website was built with **Wowchemy**.

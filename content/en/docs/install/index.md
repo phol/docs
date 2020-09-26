@@ -10,11 +10,11 @@ weight: 10
 
 <!-- [Choose a template]({{< relref "/templates/index.md" >}}). -->
 
-{{% cta cta_link="https://app.netlify.com/start/deploy?repository=https://github.com/wowchemy/starter-academic" cta_text="Create your **resumé** or **academic site** now with Github :rocket:" %}}
+{{% cta cta_link="https://app.netlify.com/start/deploy?repository=https://github.com/wowchemy/starter-academic" cta_new_tab="true" cta_text="Create your **resumé** or **academic site** now with Github :rocket:" %}}
 
-{{% cta cta_link="https://app.netlify.com/start/deploy?repository=https://github.com/wowchemy/starter-blog" cta_text="Create your **blog** now with Github :rocket:" %}}
+{{% cta cta_link="https://app.netlify.com/start/deploy?repository=https://github.com/wowchemy/starter-blog" cta_new_tab="true" cta_text="Create your **blog** now with Github :rocket:" %}}
 
-{{% cta cta_link="https://app.netlify.com/start/deploy?repository=https://github.com/wowchemy/starter-book" cta_text="Create a **documentation site** or **notebook** with Github :rocket:" %}}
+{{% cta cta_link="https://app.netlify.com/start/deploy?repository=https://github.com/wowchemy/starter-book" cta_new_tab="true" cta_text="Create a **documentation site** or **notebook** with Github :rocket:" %}}
 
 {{% cta cta_alt_link="../install-locally/" cta_alt_text="Alternatively, install on your computer" %}}
 
