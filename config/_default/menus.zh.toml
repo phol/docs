@@ -44,7 +44,7 @@
 [[main_right]]
   name = "<i class=\"fab fa-github-alt\" style=\"font-size: 1rem; line-height: 1.25\"></i>"
   post = ""
-  url = "https://github.com/gcushen/hugo-academic"
+  url = "https://github.com/wowchemy/wowchemy-hugo-modules"
   weight = 10
 
 [[main_right]]

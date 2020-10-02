@@ -50,7 +50,7 @@
 [[main_right]]
   name = "<i class=\"fab fa-github-alt\" style=\"font-size: 1rem; line-height: 1.25\"></i>"
   post = ""
-  url = "https://github.com/gcushen/hugo-academic"
+  url = "https://github.com/wowchemy/wowchemy-hugo-modules"
   weight = 10
 
 [[main_right]]
@@ -72,8 +72,14 @@
   weight = 40
 
 [[main_right]]
-  pre = "<span class=\"btn btn-primary d-none d-lg-inline-block mb-3 mb-md-0 ml-md-3\" style=\"padding: 0.3rem;\">"
+  name = "<i class=\"fab fa-facebook\" style=\"color: #4267B2; font-size: 1rem; line-height: 1.25\"></i>"
+  post = ""
+  url = "https://facebook.com/wowchemy"
+  weight = 50
+
+[[main_right]]
+  pre = "<span class=\"btn btn-primary d-none d-lg-inline-block mb-3 mb-md-0\" style=\"padding: 0.3rem;\">"
   name = "Get Started"
   post = "</span>"
   url = "docs/install/"
-  weight = 50
+  weight = 60
