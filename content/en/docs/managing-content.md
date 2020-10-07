@@ -174,7 +174,7 @@ To link to your new page from the site navigation bar, edit `config/_default/men
   weight = 50  # The position of your page in the menu.
 ```
 
-To link to your new page from another page, add something like `[My CV]{{</* ref "cv/index.md" */>}}` to the content of one of your existing pages.
+To link to your new page from another page, add something like `[My CV]({{</* ref "cv/index.md" */>}})` to the content of one of your existing pages.
 
 ### Example: creating a Curriculum Vitae page
 
